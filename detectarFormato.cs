@@ -27,7 +27,7 @@ namespace ChatBot_Whatsapp
         }
         static void Main(string[] args)
         {
-            string userData = @"C:\Users\Juan José Martinez B\AppData\Local\Google\Chrome\User Data";
+            string userData = @"C:\Users\%UserName%\AppData\Local\Google\Chrome\User Data";
 
             ChromeOptions options = new ChromeOptions();
 
